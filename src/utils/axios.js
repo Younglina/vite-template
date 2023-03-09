@@ -1,9 +1,7 @@
 import axios from 'axios'
-import { getCookie } from '@/utils/useTool.js'
 
 const Http = axios.create({
   baseURL: '',
-  withCredentials: true,
   timeout: 20000, // 请求超时 20s
 })
 
